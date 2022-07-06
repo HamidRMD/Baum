@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Deutschland",
+    "id": 1,
+    "children": [
+      {
+        "title": "Nordrhein Westfalen",
+        "id": 2,
+        "children": [
+          {
+            "title": "Düsseldorf",
+            "id": 6
+          },
+          {
+            "title": "Voerde",
+            "id": 7
+          }
+        ]
+      },
+      {
+        "title": "Bayern",
+        "id": 3
+      },
+      {
+        "title": "Hessen",
+        "id": 4
+      },
+      {
+        "title": "Hamburg",
+        "id": 5
+      }
+    ]
+  },
+  {
+    "title": "Spain",
+    "id": 9,
+    "children": [
+      {
+        "title": "Madrid",
+        "id": 10
+      },
+      {
+        "title": "Barcelona",
+        "id": 11
+      }
+    ]
+  }
+]

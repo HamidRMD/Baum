@@ -1,0 +1,78 @@
+body {
+  font-family: Shabnam, sans-serif !important;
+  padding: 1rem;
+  background-color: #ECF0F1 !important;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 2rem;
+}
+
+.list-group-item {
+  width: max-content;
+  min-width: 10rem;
+  border-radius: 0.3rem;
+  display: flex !important;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.deleteIcon {
+  color: red;
+}
+
+.title {
+  margin-right: auto;
+}
+
+.editIcon {
+  color: greenyellow;
+}
+
+.addIcon {
+  color: deeppink;
+  font-size: 1.5rem;
+}
+
+.disableItem {
+  opacity: 0.5;
+
+  i {
+    cursor: initial;
+  }
+}
+
+.editItem {
+  filter: glow(1);
+}
+
+.saveIcon {
+  color: green;
+  font-size: 1.5rem;
+}
+.cancelIcon {
+  color: red;
+  font-size: 1.5rem;
+}
+
+i {
+  transform: translateY(3px);
+  cursor: pointer;
+
+}
+
+.expandIcon {
+  margin-left: -2.5rem;
+  margin-right: 1rem;
+}
+
+button {
+  all: unset;
+
+  &:disabled {
+    filter : grayscale(1);
+  }
+}
